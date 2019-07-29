@@ -8,4 +8,4 @@ Please note that the scripts will produce many more files than shown in the .pdf
 
 # Full Acknowledgement
 
-I have uploaded a [PDF](https://github.com/cwarden45/Coding-fRNA-Comment/blob/master/comment.pdf) (and Word Document from which it was created).  Please use that to view the full acknowledgement.  I considered copied that over to the README, but I think the formatting is more clear in the PDF.
+I have uploaded a [PDF](https://github.com/cwarden45/Coding-fRNA-Comment/blob/master/comment.pdf) (and Word Document from which it was created).  Please use that to view the full acknowledgement.  I considered coping that over to the README, but I think the formatting is more clear in the PDF.
