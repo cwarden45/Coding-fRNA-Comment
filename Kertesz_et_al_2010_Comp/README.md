@@ -20,4 +20,4 @@ The gene/transcript/exon annotation file came from the [Supplemental Website](ht
 
 ![Overall PARS Score Distributions](PARS_density.png "PARS Score Density Distributions")
 
-Perhaps this means I should try looking at the intronic / intergenic portions of partially overlapping EvoFold fold (like for HAC1).  However, I am not currently certain what to think of these density plots (except that they look similar with or without filtering for EvoFold overlap).
+Perhaps this means I should try looking at the intronic / intergenic portions of partially overlapping exonic EvoFold fold (like for HAC1).  However, I am not currently certain what to think of these density plots (except that they look similar with or without filtering for EvoFold overlap).
