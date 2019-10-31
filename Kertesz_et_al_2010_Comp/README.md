@@ -16,7 +16,7 @@ I was not exactly sure what to expect, but the higher PARS score does seem to be
 
 **3)** Then, I used an R script (`compare_predictions.R`) to create a plot to compare scores:
 
-The gene annotation file came from the [Supplemental Website](https://genie.weizmann.ac.il/pubs/PARS10/pars10_catalogs.html) for the paper.
+The gene/transcript/exon annotation file came from the [Supplemental Website](https://genie.weizmann.ac.il/pubs/PARS10/pars10_catalogs.html) for the paper.
 
 ![Overall PARS Score Distributions](PARS_density.png "PARS Score Density Distributions")
 
