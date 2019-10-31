@@ -50,9 +50,10 @@ EvoFold_PARS_gr = union(EvoFold_gr, PARS_gr)
 EvoFold_PARS.table = data.frame(EvoFold_PARS_gr)
 EvoFold.All.ID = paste(EvoFold_PARS.table$seqnames, EvoFold_PARS.table$start, sep=":")
 
-EvoFold_exon_gr = union(EvoFold_gr, exon_gr)
-EvoFold_exon.table = data.frame(EvoFold_exon_gr)
-EvoFold.exon.ID = paste(EvoFold_exon.table$seqnames, EvoFold_exon.table$start, sep=":")
+#not really useful, if you don't have a PARS score
+#EvoFold_exon_gr = union(EvoFold_gr, exon_gr)
+#EvoFold_exon.table = data.frame(EvoFold_exon_gr)
+#EvoFold.exon.ID = paste(EvoFold_exon.table$seqnames, EvoFold_exon.table$start, sep=":")
 
 PARS_exon_gr = union(PARS_gr, exon_gr)
 PARS_exon.table = data.frame(PARS_exon_gr)
