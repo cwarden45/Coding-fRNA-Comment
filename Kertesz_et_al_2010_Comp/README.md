@@ -10,7 +10,7 @@ So, I was curious if I could high higher scores for within the EvoFold fRNA pred
 wig2bed < GSE22393_processed_merged_PARS_sacCer2_1.wig > GSE22393_processed_merged_PARS_sacCer2_1.bed
 ```
 
-I was not exactly sure what to expect, but the higher PARS score does seem to be extended into the HAC1 fold that I described as the positive control in the [Warden et al. 2008](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0001559) paper
+I was not exactly sure what to expect, but the higher PARS score does seem to be extended into the HAC1 fold that I described as the positive control in the [Warden et al. 2008](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0001559) paper (visualized using [IGV](https://software.broadinstitute.org/software/igv/))
 
 ![HAC1 PARS Score](HAC1_PARS_EvoFold.png "PARS scores extends into folded region of intron")
 
