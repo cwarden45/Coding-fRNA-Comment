@@ -22,4 +22,4 @@ The gene/transcript/exon annotation file came from the [Supplemental Website](ht
 
 Perhaps this means I should try looking at the intronic / intergenic portions of partially overlapping exonic EvoFold fold (like for HAC1).  However, I am not currently certain what to think of these density plots (except that they look similar with or without filtering for EvoFold overlap).
 
-The percent EvoFold exonic overlap looks extremely high (and I don't currently a bug in my code) - so, something seems off (given the rest of the HAC1 coverage), but perhaps that might be good?
+The percent EvoFold exonic overlap looks extremely high (and I don't currently see a bug in my code) - so, something seems off (given the rest of the HAC1 coverage), but perhaps that might be good?
