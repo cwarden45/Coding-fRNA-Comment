@@ -46,20 +46,20 @@ PARS_gr = GRanges(Rle(PARS.table$V1),
 exon_gr = GRanges(Rle(exon.table$Roman.chr),
     		IRanges(start=exon.table$unstranded.start, end=exon.table$unstranded.stop))
     		
-EvoFold_PARS_gr = union(EvoFold_gr, PARS_gr)
+EvoFold_PARS_gr = intersect(EvoFold_gr, PARS_gr)
 EvoFold_PARS.table = data.frame(EvoFold_PARS_gr)
 EvoFold.All.ID = paste(EvoFold_PARS.table$seqnames, EvoFold_PARS.table$start, sep=":")
 
 #not really useful, if you don't have a PARS score
-#EvoFold_exon_gr = union(EvoFold_gr, exon_gr)
+#EvoFold_exon_gr = intersect(EvoFold_gr, exon_gr)
 #EvoFold_exon.table = data.frame(EvoFold_exon_gr)
 #EvoFold.exon.ID = paste(EvoFold_exon.table$seqnames, EvoFold_exon.table$start, sep=":")
 
-PARS_exon_gr = union(PARS_gr, exon_gr)
+PARS_exon_gr = intersect(PARS_gr, exon_gr)
 PARS_exon.table = data.frame(PARS_exon_gr)
 PARS.exon.ID = paste(PARS_exon.table$seqnames, PARS_exon.table$start, sep=":")
 
-EvoFold_exons_PARS_gr = union(EvoFold_gr, PARS_exon_gr)
+EvoFold_exons_PARS_gr = intersect(EvoFold_gr, PARS_exon_gr)
 EvoFold_exons_PARS.table = data.frame(EvoFold_exons_PARS_gr)
 EvoFold_PARS.exon.ID = paste(EvoFold_exons_PARS.table$seqnames, EvoFold_exons_PARS.table$start, sep=":")
 
